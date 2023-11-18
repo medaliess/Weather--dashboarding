@@ -18,7 +18,7 @@ Ensure you have Hadoop properly installed and configured. All the required JAR f
 
 1. Place the `combinedfile` in HDFS.
 3. Use MapReduce to process and aggregate the data run the jar file `MonthlyWeatherData.jar` on the combined data .
-     - Java is used for data analysis and manipulation. The analysis includes:
+     - Java is used for the mapreduce
      - Calculate monthly average temperature (daytime and nighttime), precipitation depth, pressure, and wind speed.
      - Find monthly minimum and maximum temperatures, precipitation depth, pressure, and wind speed.
 4. Copy the output of the MapReduce to the local.
