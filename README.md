@@ -1,4 +1,5 @@
 # Big Data Weather Analysis Project
+# Weather Data Analysis Project
 
 This project is dedicated to collecting, processing, and visualizing weather data sourced from the National Oceanic and Atmospheric Administration (NOAA). Leveraging Python for data manipulation and analysis, Hadoop for distributed data processing, and MapReduce for efficient data processing, the project aims to derive insights from large-scale weather datasets.
 
@@ -9,6 +10,7 @@ This project is dedicated to collecting, processing, and visualizing weather dat
 - **NOAA NCEI Data Access:** [https://www1.ncdc.noaa.gov/](https://www1.ncdc.noaa.gov/)
 - Utilize `download_data.py` to extract data from the NOAA website.
 - Employ `combineFiles.py` to merge all text files into a consolidated dataset.
+- Read the `documentation`  to understand the data and the emplacement of info that may concern you.
 
 ### Data Processing
 
