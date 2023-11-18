@@ -26,4 +26,4 @@ Ensure you have Hadoop properly installed and configured. All the required JAR f
 ### Data Visualization
 
 - Power BI is employed to create interactive dashboards for visualizing the weather data.
-![Power BI Dashboard](file:///C:/Users/alies/Downloads/Dashboard.png)
+![Power BI Dashboard](Dashboard.png)
