@@ -1,29 +1,31 @@
 # Big Data Weather Analysis Project
 
-This project focuses on collecting, processing, and visualizing weather data from the National Oceanic and Atmospheric Administration (NOAA). The project utilizes Python for data manipulation and analysis, Hadoop for distributed data processing, and MapReduce for distributed data processing.
+This project is dedicated to collecting, processing, and visualizing weather data sourced from the National Oceanic and Atmospheric Administration (NOAA). Leveraging Python for data manipulation and analysis, Hadoop for distributed data processing, and MapReduce for efficient data processing, the project aims to derive insights from large-scale weather datasets.
 
 ## Project Components
 
 ### Data Collection
 
 - **NOAA NCEI Data Access:** [https://www1.ncdc.noaa.gov/](https://www1.ncdc.noaa.gov/)
-- Use `download_data.py` to scrape the data from the website.
-- Use `combineFiles.py` to collect all the text files into one file.
+- Utilize `download_data.py` to extract data from the NOAA website.
+- Employ `combineFiles.py` to merge all text files into a consolidated dataset.
 
 ### Data Processing
 
 #### Hadoop
 
-Ensure you have Hadoop properly installed and configured. All the required JAR files have been uploaded to run the JAR file in Hadoop.
+Ensure Hadoop is properly installed and configured, with all necessary JAR files uploaded for executing the JAR file in Hadoop.
 
-1. Place the `combinedfile` in HDFS.
-3. Use MapReduce to process and aggregate the data run the jar file `MonthlyWeatherData.jar` on the combined data .
-     - Java is used for the mapreduce
-     - Calculate monthly average temperature (daytime and nighttime), precipitation depth, pressure, and wind speed.
-     - Find monthly minimum and maximum temperatures, precipitation depth, pressure, and wind speed.
-4. Copy the output of the MapReduce to the local.
+1. Store the `combinedfile` in HDFS.
+2. Utilize MapReduce to process and aggregate data by running the JAR file `MonthlyWeatherData.jar` on the combined dataset.
+   - Java is employed for the MapReduce process.
+   - Calculate monthly average temperature (daytime and nighttime), precipitation depth, pressure, and wind speed.
+   - Determine monthly minimum and maximum temperatures, precipitation depth, pressure, and wind speed.
+3. Copy the output of the MapReduce job to the local environment.
 
 ### Data Visualization
 
-- Power BI is employed to create interactive dashboards for visualizing the weather data.
+- Utilize Power BI to create interactive dashboards for visualizing weather data.
 ![Power BI Dashboard](Dashboard.png)
+
+Feel free to adjust the project description and structure to better suit your preferences and specifications.
