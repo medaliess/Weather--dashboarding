@@ -1,5 +1,4 @@
 # Big Data Weather Analysis Project
-# Weather Data Analysis Project
 
 This project is dedicated to collecting, processing, and visualizing weather data sourced from the National Oceanic and Atmospheric Administration (NOAA). Leveraging Python for data manipulation and analysis, Hadoop for distributed data processing, and MapReduce for efficient data processing, the project aims to derive insights from large-scale weather datasets.
 
@@ -28,6 +27,9 @@ Ensure Hadoop is properly installed and configured, with all necessary JAR files
 ### Data Visualization
 
 - Utilize Power BI to create interactive dashboards for visualizing weather data.
-![Power BI Dashboard](Dashboard.png)
 
-Feel free to adjust the project description and structure to better suit your preferences and specifications.
+<div align="center">
+  <img src="https://github.com/medaliess/Weather-dashboarding/assets/135135121/96db0093-6f4f-4b96-9f5d-3f7f8f042316" alt="Screenshot 2023-11-20 211818" width="800" height="400">
+</div>
+
+Feel free to adjust the project as you need it to better suit your preferences and specifications.
